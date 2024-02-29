@@ -1,7 +1,0 @@
-add_test([=[TestCaseCircularBuffer.TestName]=]  [==[C:/Users/Антон/source/repos/Sem2 Task1 OOP/build/tests/Debug/hello_test2.exe]==] [==[--gtest_filter=TestCaseCircularBuffer.TestName]==] --gtest_also_run_disabled_tests)
-set_tests_properties([=[TestCaseCircularBuffer.TestName]=]  PROPERTIES WORKING_DIRECTORY [==[C:/Users/Антон/source/repos/Sem2 Task1 OOP/build/tests]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-add_test([=[TestCaseCircularBufferWithCapacity.TestName]=]  [==[C:/Users/Антон/source/repos/Sem2 Task1 OOP/build/tests/Debug/hello_test2.exe]==] [==[--gtest_filter=TestCaseCircularBufferWithCapacity.TestName]==] --gtest_also_run_disabled_tests)
-set_tests_properties([=[TestCaseCircularBufferWithCapacity.TestName]=]  PROPERTIES WORKING_DIRECTORY [==[C:/Users/Антон/source/repos/Sem2 Task1 OOP/build/tests]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-add_test([=[TestCaseCircularBufferWithCapacityAndElem.TestName]=]  [==[C:/Users/Антон/source/repos/Sem2 Task1 OOP/build/tests/Debug/hello_test2.exe]==] [==[--gtest_filter=TestCaseCircularBufferWithCapacityAndElem.TestName]==] --gtest_also_run_disabled_tests)
-set_tests_properties([=[TestCaseCircularBufferWithCapacityAndElem.TestName]=]  PROPERTIES WORKING_DIRECTORY [==[C:/Users/Антон/source/repos/Sem2 Task1 OOP/build/tests]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-set(  hello_test2_TESTS TestCaseCircularBuffer.TestName TestCaseCircularBufferWithCapacity.TestName TestCaseCircularBufferWithCapacityAndElem.TestName)
