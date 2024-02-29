@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Антон\source\repos\Sem2 Task1 OOP\include\buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Антон\source\repos\Sem2 Task1 OOP\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DA702041-67FE-3C6D-87E9-059BDB0BBBE6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

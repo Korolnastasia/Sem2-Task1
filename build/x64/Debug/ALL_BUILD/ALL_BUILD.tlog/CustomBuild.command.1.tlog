@@ -1,0 +1,10 @@
+^C:\USERS\АНТОН\SOURCE\REPOS\SEM2 TASK1 OOP\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Антон/source/repos/Sem2 Task1 OOP" "-BC:/Users/Антон/source/repos/Sem2 Task1 OOP/build" --check-stamp-file "C:/Users/Антон/source/repos/Sem2 Task1 OOP/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^C:\USERS\АНТОН\SOURCE\REPOS\SEM2 TASK1 OOP\BUILD\CMAKEFILES\DD6182F590124DAA2F25641753061BF1\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Антон/source/repos/Sem2 Task1 OOP" "-BC:/Users/Антон/source/repos/Sem2 Task1 OOP/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Антон/source/repos/Sem2 Task1 OOP/build/my-project.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

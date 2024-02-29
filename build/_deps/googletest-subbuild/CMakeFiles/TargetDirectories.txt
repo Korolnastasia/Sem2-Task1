@@ -1,0 +1,3 @@
+C:/Users/Антон/source/repos/Sem2 Task1 OOP/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+C:/Users/Антон/source/repos/Sem2 Task1 OOP/build/_deps/googletest-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/Антон/source/repos/Sem2 Task1 OOP/build/_deps/googletest-subbuild/CMakeFiles/ZERO_CHECK.dir

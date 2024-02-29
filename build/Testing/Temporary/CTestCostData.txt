@@ -1,0 +1,4 @@
+TestCaseCircularBuffer.TestName 1 0.0104894
+TestCaseCircularBufferWithCapacity.TestName 1 0.0100894
+TestCaseCircularBufferWithCapacityAndElem.TestName 1 0.0104995
+---

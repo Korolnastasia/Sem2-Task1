@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/Антон/source/repos/Sem2 Task1 OOP/build/tests/hello_test2[1]_tests.cmake")
+  include("C:/Users/Антон/source/repos/Sem2 Task1 OOP/build/tests/hello_test2[1]_tests.cmake")
+else()
+  add_test(hello_test2_NOT_BUILT hello_test2_NOT_BUILT)
+endif()
